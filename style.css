@@ -227,12 +227,16 @@ header img {
   header {
     flex-direction: column;
   }
-  #progress-container, #progress-title {
+  #progress-container {
     width: 90%;
     left: 5%;
     top: 100px; /* ajuste conforme necessário */
   }
 
+  #progress-title {
+    display: none;
+  }
+  
   #question-text {
     width: 90%;
     margin: 10px auto;
