@@ -241,10 +241,17 @@ header img {
     width: 90%;
     margin: 10px auto;
   }
-  .btn-container, .answer-btn {
+  .btn-container {
     flex-basis: auto;
     width: 90%;
   }
+
+  .answer-btn {
+    width: 90%; /* Ajuste a largura para telas menores */
+    margin: 10px auto; /* Margem automática para centralizar horizontalmente */
+    display: block; /* Garante que cada botão seja tratado como um bloco */
+  }
+  
   #start-button {
     margin-top: 10px;
     width: auto;
